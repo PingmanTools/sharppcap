@@ -1,0 +1,4 @@
+[submodule "packetnet"]
+	path = packetnet
+	url = https://github.com/PingmanTools/packetnet.git
+	branch = master
