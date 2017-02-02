@@ -84,13 +84,13 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="PacketDotNet, Version=0.13.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PacketDotNet.Pingman.0.13.0\lib\net451\PacketDotNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <ProjectReference Include="..\packetnet\PacketDotNet\PacketDotNet.csproj">
-      <Project>{55abba4c-aaf9-4726-a592-0c92436cec92}</Project>
-      <Name>PacketDotNet</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SharpPcap\SharpPcap.csproj">
       <Project>{24262E52-1304-4A25-8F73-A3B06E40592E}</Project>
       <Name>SharpPcap</Name>
@@ -138,5 +138,7 @@
     <ProjectGuid>{24795AED-F26F-4EE7-BCA7-900F54FA5A53}</ProjectGuid>
     <RootNamespace>Test</RootNamespace>
   </PropertyGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
 </Project>

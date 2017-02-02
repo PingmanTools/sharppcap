@@ -35,16 +35,16 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PacketDotNet, Version=0.13.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\PacketDotNet.Pingman.0.13.0\lib\net451\PacketDotNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\packetnet\PacketDotNet\PacketDotNet.csproj">
-      <Project>{55abba4c-aaf9-4726-a592-0c92436cec92}</Project>
-      <Name>PacketDotNet</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\SharpPcap\SharpPcap.csproj">
       <Project>{24262E52-1304-4A25-8F73-A3B06E40592E}</Project>
       <Name>SharpPcap</Name>
@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

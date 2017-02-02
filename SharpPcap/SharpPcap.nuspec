@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SharpPcap.Pingman</id>
+    <title>SharpPcap.Pingman</title>
+    <version>$version$</version>
+    <authors>https://github.com/chmorgan</authors>
+    <owners>https://github.com/chmorgan</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+  </metadata>
+</package>
